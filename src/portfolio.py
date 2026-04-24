@@ -85,7 +85,7 @@ def simulate_portfolio_returns(returns: pd.DataFrame,
     4. Correlated returns: R = Z @ L.T + mu
     5. Portfolio return: r_p = R @ weights
 
-    Why Cholesky: plain N(0,1) draws are uncorrelated — AAPL and MSFT
+    Why Cholesky: plain N(0,1) draws are uncorrelated — Procter&Gamble and Exxon Mobile 
     would move independently. Cholesky transforms them to match the
     historical correlation structure.
 
@@ -96,7 +96,7 @@ def simulate_portfolio_returns(returns: pd.DataFrame,
         seed:          random seed for reproducibility
 
     Returns:
-        numpy array of shape (n_simulations,) — one portfolio return per scenario
+        numpy array of shape (n_simulations,) — one portfolio return for each scenario
     """
     rng   = np.random.default_rng(seed)
     mu    = returns.mean().values       # shape (n_assets,)
