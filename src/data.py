@@ -2,9 +2,9 @@ import yfinance as yf
 import numpy as np
 import pandas as pd
 
-TICKERS = ["AAPL", "MSFT", "JPM", "XOM", "JNJ"]
+TICKERS = ["ABBV", "PG", "JPM", "XOM", "JNJ"]
 START   = "2021-01-01"
-END     = "2026-01-01"
+END     = "2027-01-01" 
 
 
 def download_prices(tickers=TICKERS, start=START, end=END) -> pd.DataFrame:
