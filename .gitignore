@@ -2,3 +2,16 @@
 __pycache__/
 *.pyc
 venv/.DS_Store
+venv/lib/python3.*/site-packages/numpy/.DS_Store
+venv/lib/python3.*/site-packages/pandas/.DS_Store
+venv/lib/python3.*/site-packages/scipy/.DS_Store
+venv/lib/python3.*/site-packages/matplotlib/.DS_Store
+venv/lib/python3.*/site-packages/seaborn/.DS_Store
+venv/lib/python3.*/site-packages/statsmodels/.DS_Store
+venv/lib/python3.*/site-packages/scikit_learn/.DS_Store
+venv/lib/python3.*/site-packages/scikit_learn-*.egg-info/.DS_Store
+venv/lib/python3.*/site-packages/scikit_learn-*.    egg-info/PKG-INFO
+venv/lib/python3.*/site-packages/scikit_learn-*.egg-info/SOURCES.txt
+venv/lib/python3.*/site-packages/scikit_learn-*.egg-info/dependency_links.txt
+venv/lib/python3.*/site-packages/scikit_learn               -*.egg-info/top_level.txt
+venv/lib/python3.*/site-packages/scikit_learn-*.egg-info/not
